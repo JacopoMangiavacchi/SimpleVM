@@ -13,7 +13,7 @@
 		CC69034824CE88B700273851 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC69034724CE88B700273851 /* Preview Assets.xcassets */; };
 		CC69035124CE88CA00273851 /* VirtualMachineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC69035024CE88CA00273851 /* VirtualMachineViewModel.swift */; };
 		CCEF5E0224CEA0B80044B196 /* ConsoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEF5E0124CEA0B80044B196 /* ConsoleViewController.swift */; };
-		CCEF5E0B24CEC2450044B196 /* SwiftTerm in Frameworks */ = {isa = PBXBuildFile; productRef = CCEF5E0A24CEC2450044B196 /* SwiftTerm */; };
+		EAB2376C256757C4007D6E33 /* SwiftTerm in Frameworks */ = {isa = PBXBuildFile; productRef = EAB2376B256757C4007D6E33 /* SwiftTerm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCEF5E0B24CEC2450044B196 /* SwiftTerm in Frameworks */,
+				EAB2376C256757C4007D6E33 /* SwiftTerm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +96,7 @@
 			);
 			name = SimpleVM;
 			packageProductDependencies = (
-				CCEF5E0A24CEC2450044B196 /* SwiftTerm */,
+				EAB2376B256757C4007D6E33 /* SwiftTerm */,
 			);
 			productName = SimpleVM;
 			productReference = CC69033D24CE88B500273851 /* SimpleVM.app */;
@@ -126,7 +126,7 @@
 			);
 			mainGroup = CC69033424CE88B500273851;
 			packageReferences = (
-				CCEF5E0924CEC2450044B196 /* XCRemoteSwiftPackageReference "SwiftTerm" */,
+				EAB2376A256757C4007D6E33 /* XCRemoteSwiftPackageReference "SwiftTerm" */,
 			);
 			productRefGroup = CC69033E24CE88B500273851 /* Products */;
 			projectDirPath = "";
@@ -351,20 +351,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		CCEF5E0924CEC2450044B196 /* XCRemoteSwiftPackageReference "SwiftTerm" */ = {
+		EAB2376A256757C4007D6E33 /* XCRemoteSwiftPackageReference "SwiftTerm" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/migueldeicaza/SwiftTerm";
+			repositoryURL = "https://github.com/JacopoMangiavacchi/SwiftTerm";
 			requirement = {
-				branch = master;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CCEF5E0A24CEC2450044B196 /* SwiftTerm */ = {
+		EAB2376B256757C4007D6E33 /* SwiftTerm */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CCEF5E0924CEC2450044B196 /* XCRemoteSwiftPackageReference "SwiftTerm" */;
+			package = EAB2376A256757C4007D6E33 /* XCRemoteSwiftPackageReference "SwiftTerm" */;
 			productName = SwiftTerm;
 		};
 /* End XCSwiftPackageProductDependency section */

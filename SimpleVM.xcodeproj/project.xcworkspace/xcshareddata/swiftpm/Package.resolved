@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "SwiftTerm",
-        "repositoryURL": "https://github.com/migueldeicaza/SwiftTerm",
+        "repositoryURL": "https://github.com/JacopoMangiavacchi/SwiftTerm",
         "state": {
-          "branch": "master",
-          "revision": "52bab6322d97137ba827f215c56d2fdb83ec8b0d",
-          "version": null
+          "branch": null,
+          "revision": "0d3aa1545d8ec929d71d380dee14820e52064345",
+          "version": "0.2.0"
         }
       }
     ]
